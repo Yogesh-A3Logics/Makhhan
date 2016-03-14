@@ -22,7 +22,8 @@
     [[Singleton sharedManager] myMethod:@"two"];
     [[Singleton sharedManager] myMethod:@"two"];
 
-    
+    [[Singleton sharedManager] myMethod:@"two"];
+
     
     
     
