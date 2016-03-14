@@ -20,6 +20,7 @@
     
     [[Singleton sharedManager] myMethod:@"one"];
     [[Singleton sharedManager] myMethod:@"two"];
+    [[Singleton sharedManager] myMethod:@"two"];
 
     
     
