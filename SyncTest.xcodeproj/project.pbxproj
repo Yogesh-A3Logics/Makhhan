@@ -13,6 +13,10 @@
 		6B7C838C1C971E4D008DF908 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B7C838A1C971E4D008DF908 /* Main.storyboard */; };
 		6B7C838E1C971E4D008DF908 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B7C838D1C971E4D008DF908 /* Assets.xcassets */; };
 		6B7C83911C971E4D008DF908 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B7C838F1C971E4D008DF908 /* LaunchScreen.storyboard */; };
+		6B7C839A1C971E6C008DF908 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B7C83991C971E6C008DF908 /* Singleton.m */; };
+		6B7C839C1C9721EE008DF908 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B7C839B1C9721EE008DF908 /* UIKit.framework */; };
+		6B7C839E1C9721F7008DF908 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B7C839D1C9721F7008DF908 /* Foundation.framework */; };
+		6B7C83A01C9721FF008DF908 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B7C839F1C9721FF008DF908 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,11 @@
 		6B7C838D1C971E4D008DF908 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B7C83901C971E4D008DF908 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B7C83921C971E4D008DF908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B7C83981C971E6C008DF908 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		6B7C83991C971E6C008DF908 /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
+		6B7C839B1C9721EE008DF908 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6B7C839D1C9721F7008DF908 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6B7C839F1C9721FF008DF908 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +42,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B7C83A01C9721FF008DF908 /* CoreGraphics.framework in Frameworks */,
+				6B7C839E1C9721F7008DF908 /* Foundation.framework in Frameworks */,
+				6B7C839C1C9721EE008DF908 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +54,9 @@
 		6B7C83751C971E4C008DF908 = {
 			isa = PBXGroup;
 			children = (
+				6B7C839F1C9721FF008DF908 /* CoreGraphics.framework */,
+				6B7C839D1C9721F7008DF908 /* Foundation.framework */,
+				6B7C839B1C9721EE008DF908 /* UIKit.framework */,
 				6B7C83801C971E4C008DF908 /* SyncTest */,
 				6B7C837F1C971E4C008DF908 /* Products */,
 			);
@@ -62,6 +77,8 @@
 				6B7C83851C971E4C008DF908 /* AppDelegate.m */,
 				6B7C83871C971E4C008DF908 /* ViewController.h */,
 				6B7C83881C971E4C008DF908 /* ViewController.m */,
+				6B7C83981C971E6C008DF908 /* Singleton.h */,
+				6B7C83991C971E6C008DF908 /* Singleton.m */,
 				6B7C838A1C971E4D008DF908 /* Main.storyboard */,
 				6B7C838D1C971E4D008DF908 /* Assets.xcassets */,
 				6B7C838F1C971E4D008DF908 /* LaunchScreen.storyboard */,
@@ -150,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B7C83891C971E4C008DF908 /* ViewController.m in Sources */,
+				6B7C839A1C971E6C008DF908 /* Singleton.m in Sources */,
 				6B7C83861C971E4C008DF908 /* AppDelegate.m in Sources */,
 				6B7C83831C971E4C008DF908 /* main.m in Sources */,
 			);

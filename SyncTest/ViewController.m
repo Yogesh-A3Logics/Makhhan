@@ -16,6 +16,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
+    [[Singleton sharedManager] myMethod:@"one"];
+    [[Singleton sharedManager] myMethod:@"two"];
+
+    
+    
+    
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
